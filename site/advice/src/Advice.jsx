@@ -23,13 +23,13 @@ const Advice = () => {
   return (
     <div
       key={advice.id}
-      className="dark-Grayish-Blue container flex flex-col justify-center items-center  p-10 rounded-lg relative md:w-1/3"
+      className="dark-Grayish-Blue container flex flex-col justify-center items-center  p-14 rounded-lg relative md:w-1/3"
     >
       <h4 className="neon-Green">ADVICE #{advice.id}</h4>
       <h1 className=" light-Cyan my-7 md:mt-5 text-center text-3xl">
         &quot;{advice.advice}&quot;
       </h1>
-      <div className="desktop-image mb-7">
+      <div className="desktop-image mb-7 ">
         <svg
           className=""
           width="444"
