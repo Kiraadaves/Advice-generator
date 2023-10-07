@@ -23,7 +23,7 @@ const Advice = () => {
   return (
     <div
       key={advice.id}
-      className="dark-Grayish-Blue container flex flex-col justify-center items-center  p-14 rounded-lg relative md:w-1/3"
+      className="dark-Grayish-Blue container flex flex-col justify-center items-center  p-14 rounded-3xl relative md:w-1/3"
     >
       <h4 className="neon-Green">ADVICE #{advice.id}</h4>
       <h1 className=" light-Cyan my-7 md:mt-5 text-center text-3xl">
