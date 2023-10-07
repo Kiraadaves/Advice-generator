@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+.light-Cyan {
+  color: hsl(193, 38%, 86%);
+}  
+.neon-Green {
+  color: hsl(150, 100%, 66%);
+}  
+
+.bg-green {
+  background-color: hsl(150, 100%, 66%);
+}
+
+.grayish-Blue {
+  background-color: hsl(217, 19%, 38%);
+} 
+
+.dark-Grayish-Blue {
+  background-color: hsl(217, 19%, 24%);
+}  
+
+.dark-Blue {
+  background-color: hsl(218, 23%, 16%);
+} 
+
+button:hover {
+  box-shadow: 0 0 30px rgb(91, 214, 118);
+  cursor: pointer;
+}
+
+/* By default, hide the mobile image */
+.mobile-image {
+  display: none;
+}
+
+/* Show the desktop image on screens with a min-width of 768px (adjust as needed) */
+@media screen and (min-width: 768px) {
+  .desktop-image {
+    display: block;
+    
+  }
+
+  .mobile-image {
+    display: none;
+    margin-top: 1.5rem;
+  }
+
+  
+}
+
+/* Show the mobile image on screens with a max-width of 767px (adjust as needed) */
+@media screen and (max-width: 767px) {
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+}
