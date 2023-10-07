@@ -9,9 +9,11 @@ body {
 
 .light-Cyan {
   color: hsl(193, 38%, 86%);
+  
 }  
 .neon-Green {
   color: hsl(150, 100%, 66%);
+  letter-spacing: 0.2rem;
 }  
 
 .bg-green {
@@ -49,7 +51,7 @@ button:hover {
 
   .mobile-image {
     display: none;
-    margin-top: 1.5rem;
+   
   }
 
   
@@ -63,5 +65,9 @@ button:hover {
 
   .mobile-image {
     display: block;
+  }
+
+  .App {
+    padding: 0 1rem 0 1rem;
   }
 }
